@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  font-family: "Roboto Slab", serif;
+  padding: 8px;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-align-last: center;
+}
+
+nav li {
+  font-size: larger;
+  text-decoration-color: coral;
+  text-decoration-line: underline;
+  list-style: none;
+  display: inline-block;
+  margin-right: 32px;
+}
+
+.selectedPage {
+  text-decoration-style: wavy;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  font-family: "Roboto Slab", serif;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
