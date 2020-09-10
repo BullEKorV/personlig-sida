@@ -13,6 +13,11 @@ h1 {
   text-align-last: center;
 }
 
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 nav li {
   font-size: larger;
   text-decoration-color: coral;
@@ -37,4 +42,8 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
+}
+
+.pageNav {
+  text-align: right;
 }
