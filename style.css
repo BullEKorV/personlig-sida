@@ -2,48 +2,67 @@ body {
   margin: 0;
   padding: 0;
 }
+
 header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
   font-family: "Roboto Slab", serif;
-  padding: 8px;
+  padding: 0px;
+  margin: 0px;
   background-color: black;
   color: white;
 }
 
-h1 {
-  text-align-last: center;
+header > h1 {
+  margin: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 3%;
+  font-size: 40px;
+  color: red;
 }
 
-nav {
-  display: flex;
-  justify-content: space-evenly;
+header > h1 > span {
+  color: blue;
 }
-
+header > nav {
+  font-family: Secular, "Segoe UI", Oxygen, "Helvetica Neue", sans-serif;
+  margin-left: 2%;
+}
 nav li {
-  font-size: larger;
-  text-decoration-color: coral;
-  text-decoration-line: underline;
+  font-size: 30px;
   list-style: none;
   display: inline-block;
-  margin-right: 32px;
-}
-
-.selectedPage {
-  text-decoration-style: wavy;
+  margin-right: 40px;
 }
 
 a {
-  text-decoration: none;
+  text-decoration-line: none;
   color: white;
+}
+
+.selectedPage {
+  border-bottom: 4px solid red;
+  border-radius: 10px;
+}
+
+a:hover {
+  color: #f2ff9e;
+  transition: 0.5s;
+}
+
+a:not(:hover) {
+  color: white;
+  transition: 0.5s;
 }
 
 footer {
   font-family: "Roboto Slab", serif;
-  padding: 8px;
+  padding: 0;
+  margin: 0;
   background-color: black;
   color: white;
   text-align: center;
-}
-
-.pageNav {
-  text-align: right;
+  position: absolute;
+  width: 100%;
 }
