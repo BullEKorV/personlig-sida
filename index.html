@@ -22,11 +22,22 @@
     </header>
     <h2>Welcome to m<a href="redirect.html">y</a> page</h2>
     <div class="center">
-      <img src="Elias Sans.png" alt="Elias Sans" height="500px" />
+      <img
+        onclick="myFunction()"
+        src="Elias Sans.png"
+        alt="Elias Sans"
+        height="500px"
+      />
       <p>Enjoy your stay >:)</p>
     </div>
     <footer>
       <p>©Elias</p>
     </footer>
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
   </body>
 </html>
